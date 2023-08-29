@@ -1,14 +1,22 @@
+---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const pageTitle = 'Página de inicio';
+---
+
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="generator" content={Astro.generator} >
-	<title>Astro</title>
-</head>
-<body>
-	<h1>Mi sitio Astro</h1>
-	<a href="/">Inicio</a>
-	<a href="/about">Sobre mi</a>
-	<a href="/blog">Blog</a>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <Navigation />
+    <h1>{pageTitle}</h1>
+    <Footer />
+  </body>
 </html>
