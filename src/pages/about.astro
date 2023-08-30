@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 
 import Footer from '../components/Footer.astro';
 
@@ -27,6 +27,7 @@ const textCase = "uppercase";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/blogging.webp" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
     <style define:vars={{skillColor, fontWeight, textCase}}>
@@ -43,7 +44,7 @@ const textCase = "uppercase";
   </head>
   <body>
 
-    <Navigation />
+    <Header />
     
     <h1>{pageTitle}</h1>
 
@@ -66,5 +67,8 @@ const textCase = "uppercase";
 
     {goal === 3 ? <p>Mi objetivo es terminar en 3 días.</p> : <p>Mi objetivo no son 3 días.</p>}
     <Footer />
+    <script>
+      import "../scripts/menu.js"
+    </script>
   </body>
 </html>

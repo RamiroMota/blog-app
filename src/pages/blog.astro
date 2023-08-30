@@ -1,15 +1,16 @@
 ---
-import Navigation from "../components/Navigation.astro";
+import Header from "../components/Header.astro";
 import Footer from '../components/Footer.astro';
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
+    <link rel="icon" type="image/svg+xml" href="/blogging.webp" />
     <meta name="viewport" content="width=device-width" />
     <title>Astro</title>
   </head>
   <body>
-    <Navigation>
+    <Header />
 
     <h1>Mi blog de Astro aprendizaje</h1>
     <p>Aquí es donde voy a post sobre mi viaje de aprendizaje Astro.</p>
@@ -19,5 +20,8 @@ import Footer from '../components/Footer.astro';
       <li><a href="/posts/post-3/">Post 3</a></li>
     </ul>
     <Footer />
+    <script>
+      import "../scripts/menu.js"
+    </script>
   </body>
 </html>
