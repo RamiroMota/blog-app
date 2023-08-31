@@ -7,6 +7,7 @@ image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'El logotipo completo de Astro.'
 tags: ["astro", "bloguear", "aprender en público"]
+
 ---
 # Mi primer post en el blog
 
@@ -20,8 +21,15 @@ Published on: 2022-07-01
 
 2. **Haciendo páginas**: Luego aprendí cómo hacer páginas creando nuevos archivos `.astro` y colocándolos en la carpeta `src/pages/`.
 
-3. **Haciendo posts**: ¡Este es mi primer post! ¡Ahora tengo páginas Astro y posts en Markdown!
+3. **Haciendo posts**: ¡Este es mi primer post! ¡Ahora tengo páginas Astro y posts en Markdown! 
+
+4. jksjda:
 
 ## Próximos pasos
 
 Terminaré el tutorial de Astro, y luego seguiré añadiendo más posts. Mira este espacio para más por venir.
+
+
+hola shdjhdasdi
+
+<link rel="stylesheet" href='../../src/styles/global.css'>
